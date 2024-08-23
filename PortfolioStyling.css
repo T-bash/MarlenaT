@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: black;
+    /*overflow-y: hidden;*/
+}
+/*styling the header section*/
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+.pic1{
+    width: 200px;
+    padding-top: 10px;
+}
+.navigation{
+    display: flex;
+}
+.navigation a {
+    display: block;
+    color:rgb(233, 65, 84) ;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+}
+.navigation a:hover {
+    color:white ;
+}
+.navigation a.active {
+    color:white;
+}
+/*STYLING THE INTRO SECTION*/
+.intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    /*gap: 80px;*/
+}
+.meintro{
+    padding: 0 70px;
+}
+.meintro h1 {
+    font-size: 64px;
+    color: white;
+    margin-top: -80px;
+}
+.name{
+    color: rgb(233, 65, 84);
+}
+.meintro h5 {
+    font-size: 32px;
+    color: white;
+}
+.meintro p {
+    font-size: 24px;
+    color: white;
+}
+/*.myphoto{
+    padding-left: 80px;
+}*/
+.pic3{
+    border-radius: 50%;
+    width: 637px;
+    height: 848px;
+}
+
+
+
+/*ABOUT ME PAGE*/
+main {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-me {
+    margin-bottom: 30px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.about-content {
+    margin-top: 20px;
+}
+
+.biographical-data {
+    margin-bottom: 30px;
+}
+
+.biographical-data ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.biographical-data li {
+    margin-bottom: 10px;
+}
+
+.journey {
+    margin-bottom: 30px;
+}
+
+.journey-content {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.hobbies {
+    margin-bottom: 30px;
+}
+
+.hobbies-icons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.hobby {
+    text-align: center;
+    margin: 10px;
+}
+
+.hobby img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+footer {
+    padding: 20px;
+}
+
+.scroll-up {
+    text-decoration: none;
+    font-size: 24px;
+    color: #fff;
+}
