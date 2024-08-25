@@ -151,3 +151,47 @@ footer {
     font-size: 24px;
     color: #fff;
 }
+
+
+/*PROJECTS PAGE*/
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.project {
+    background-color: #111;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.project h3 {
+    margin: 10px 0;
+    color: #fff;
+}
+
+.project p {
+    color: #ddd;
+}
+
+.demo-link {
+    text-decoration: none;
+    color: #ff0000;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.demo-link:hover {
+    text-decoration: underline;
+}
+
+
+/*SKILLS PAGE*/
