@@ -112,6 +112,7 @@ button:hover a {
     border-radius: 50%;
     width: 501px;
     height: 702px;
+    padding: 80px;
 }
 
 .about-content {
@@ -121,6 +122,9 @@ button:hover a {
     font-size: 40px;
     font-weight: bolder;
     color: rgb(233, 65, 84);
+}
+.about-content p {
+    font-size: 24px;
 }
 .biographical-data {
     margin-bottom: 30px;
