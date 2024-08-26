@@ -68,22 +68,26 @@ body{
 }*/
 .fa-brands {
     padding: 10px;
-    font-size: 30px;
+    font-size: 35px;
 }
 .hire-me{
     color: rgb(233, 65, 84);
-}
-/*button {
-    padding: 10px 20px;
-    background-color: #ff0000;
-    color: #fff;
-    border: none;
+    font-style: italic;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: black;
+    /*border: solid;*/
     border-radius: 50px;
-    cursor: pointer;
-}*/
-
-button:hover {
-    background-color: #d00000;
+    width: 183px;
+    height: 58px;
+}
+.hire-me a{
+    text-decoration: none;
+    color: rgb(233, 65, 84);
+}
+button:hover a {
+    color: black;
+    background-color: white;
 }
 .pic3{
     border-radius: 50%;
