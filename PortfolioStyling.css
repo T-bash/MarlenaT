@@ -68,6 +68,7 @@ body{
 .fa-brands {
     padding: 10px;
     font-size: 35px;
+    color: rgb(233, 65, 84);
 }
 .hire-me{
     color: rgb(233, 65, 84);
@@ -147,14 +148,22 @@ button:hover a {
 }
 .journey {
     margin-bottom: 30px;
+    text-align: center;
 }
-
+.journey h3 {
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(233, 65, 84);
+}
 .journey-content {
     display: flex;
     justify-content: space-around;
     text-align: left;
+    font-size: 24px;
 }
-
+.duration{
+    color: rgb(233, 65, 84);
+}
 .hobbies {
     margin-bottom: 30px;
 }
