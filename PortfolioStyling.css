@@ -202,6 +202,14 @@ button:hover a {
     /*height: 180px;*/
     margin-bottom: 10px;
 }
+footer{
+    text-align: right;
+}
+.up{
+    text-decoration: none;
+    font-size: 50px;
+    color: rgb(233, 65, 84);
+}
 
 /*PROJECTS PAGE*/
 .projects {
@@ -309,14 +317,13 @@ span{
     height: 100%;
 }
 
-footer {
-    padding: 20px;
+footer{
+    text-align: right;
 }
-
-.scroll-up {
+.up{
     text-decoration: none;
-    font-size: 24px;
-    color: #fff;
+    font-size: 50px;
+    color: rgb(233, 65, 84);
 }
 
 
@@ -324,20 +331,28 @@ footer {
 /* Reuse the styles from previous pages for consistency */
 
 .contact-info {
-    margin-top: 50px;
+    margin-top: -90px;
+    text-align: center;
 }
 
 .contact-info h2 {
     color: #fff;
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(233, 65, 84);
+    padding-left: 150px;
 }
 
 .contact-info p {
     color: #ddd;
+    font-size: 24px;
+    padding-left: 80px;
 }
 
 .contact-details {
-    display: flex;
+    /*display: flex;*/
     justify-content: space-around;
+    gap: 50px;
     margin-top: 20px;
 }
 
@@ -345,15 +360,10 @@ footer {
     text-align: center;
 }
 
-.contact-item span {
-    font-size: 30px;
-    display: block;
-    margin-bottom: 10px;
-    color: #ff0000;
-}
-
 .contact-item p {
     margin: 0;
+    font-size: 24px;
+    /*color: rgb(233, 65, 84);*/
 }
 
 .contact-form {
@@ -361,11 +371,15 @@ footer {
 }
 
 .contact-form h3 {
-    color: #fff;
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(233, 65, 84);
+    text-align: center;
 }
 
 .contact-form p {
     color: #ddd;
+    text-align: center;
 }
 
 form {
@@ -403,14 +417,4 @@ button {
 button:hover {
     color: black;
     background-color: white;
-}
-
-footer {
-    padding: 20px;
-}
-
-.scroll-up {
-    text-decoration: none;
-    font-size: 24px;
-    color: #fff;
 }
