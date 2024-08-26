@@ -6,6 +6,7 @@ body{
     background-color: black;
     /*overflow-y: hidden;       REMEMBER TO UNDO THIS AFTER BEING ABLE TO MOVE UP AN DOWN IN YOUR WEBSITE
     overflow-x: hidden;*/
+    cursor: all-scroll;
 }
 /*styling the header section oF ALL PAGES*/
 .header{
@@ -331,7 +332,7 @@ footer{
 /* Reuse the styles from previous pages for consistency */
 
 .contact-info {
-    margin-top: -90px;
+    margin-top: -120px;
     text-align: center;
 }
 
@@ -340,7 +341,7 @@ footer{
     font-size: 40px;
     font-weight: bolder;
     color: rgb(233, 65, 84);
-    padding-left: 150px;
+    padding-left: 60px;
 }
 
 .contact-info p {
@@ -348,12 +349,15 @@ footer{
     font-size: 24px;
     padding-left: 80px;
 }
-
+.find{
+    margin-left: -50px;
+}
 .contact-details {
-    /*display: flex;*/
-    justify-content: space-around;
-    gap: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
     margin-top: 20px;
+    margin-left: -180px;
 }
 
 .contact-item {
