@@ -166,12 +166,18 @@ button:hover a {
 }
 .hobbies {
     margin-bottom: 30px;
+    text-align: center;
 }
-
+.hobbies h3{
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(233, 65, 84);
+}
 .hobbies-icons {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    padding-top: 50px;
 }
 
 .hobby {
@@ -180,8 +186,8 @@ button:hover a {
 }
 
 .hobby img {
-    width: 50px;
-    height: 50px;
+    width: 150px;
+    /*height: 180px;*/
     margin-bottom: 10px;
 }
 
