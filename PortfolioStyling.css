@@ -217,11 +217,10 @@ footer{
 
 /*PROJECTS PAGE*/
 .projects {
-    /*display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));*/
     display: flex;
-    gap: 20px;
+    gap: 80px;
     padding: 20px;
+    width: 700px;
 }
 
 .project {
@@ -229,11 +228,13 @@ footer{
     padding: 20px;
     border-radius: 10px;
     align-items: center;
+    text-align: center;
 }
-
 .project img {
-    width: 100%;
+    /*width: 100%;*/
     border-radius: 5px;
+    width: 600px;
+    height: auto;
 }
 
 .project h3 {
