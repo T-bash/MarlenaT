@@ -188,16 +188,19 @@ button:hover a {
 }
 .hobbies-icons {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
     padding-top: 50px;
+    gap: 80px;
+    padding-left: 220px;
 }
 
 .hobby {
     text-align: center;
     margin: 10px;
 }
-
+.hobby p{
+    font-size: 24px;
+    font-weight: bold;
+}
 .hobby img {
     width: 150px;
     /*height: 180px;*/
