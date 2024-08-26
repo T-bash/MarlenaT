@@ -6,7 +6,7 @@ function getLocation() {
         alert("Geolocation is not supported by this browser.");
     }
 }
-
+/*ALSO FOR MAP*/
 function showPosition(position) {
     var lat = position.coords.latitude;
     var lon = position.coords.longitude;
