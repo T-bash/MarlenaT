@@ -161,9 +161,15 @@ button:hover a {
     text-align: left;
     font-size: 24px;
 }
+.fa-solid{
+    color: rgb(233, 65, 84);
+    padding-right: 10px;
+    font-size: 30px;
+}
 .duration{
     color: rgb(233, 65, 84);
 }
+
 .hobbies {
     margin-bottom: 30px;
     text-align: center;
