@@ -66,6 +66,10 @@ body{
 /*.myphoto{
     padding-left: 80px;
 }*/
+.fa-brands {
+    padding: 10px;
+    font-size: 30px;
+}
 .pic3{
     border-radius: 50%;
     width: 637px;
