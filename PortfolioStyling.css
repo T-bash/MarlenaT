@@ -4,7 +4,8 @@ body{
     font-family: Arial, sans-serif;
     color: white;
     background-color: black;
-    /*overflow-y: hidden;*/
+    /*overflow-y: hidden;       REMEMBER TO UNDO THIS AFTER BEING ABLE TO MOVE UP AN DOWN IN YOUR WEBSITE
+    overflow-x: hidden;*/
 }
 /*styling the header section*/
 .header{
