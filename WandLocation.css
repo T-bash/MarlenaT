@@ -1,0 +1,33 @@
+/*FOR MAP*/
+/*FOR WEATHER*/
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    /*padding: 20px;*/
+}
+.geolocation{
+    padding-left: 200px;
+}
+.WL{
+    /*padding-left: 80px;*/
+    font-size: 24px;
+    margin-left: -550px;
+}
+#map {
+    height: 354px;
+    width: 576px;
+    margin-top: 20px;
+    border: 1px solid rgb(233, 65, 84);
+    border-radius: 20px;
+
+}
+
+#weather {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-left: -750px;
+}
+
