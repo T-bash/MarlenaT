@@ -235,7 +235,7 @@ button:hover a {
 
 .demo-link {
     text-decoration: none;
-    color: #ff0000;
+    color:rgb(233, 65, 84);
     font-weight: bold;
     display: inline-block;
     margin-top: 10px;
@@ -275,11 +275,14 @@ main {
 .skill h3 {
     margin: 0;
     color: #fff;
+    font-size: 32px;
 }
 
 .skill p {
     margin: 5px 0 15px;
-    color: #ddd;
+    color: rgb(233, 65, 84);
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .skill-bar {
@@ -297,9 +300,12 @@ main {
     overflow: hidden;
     margin: 0 10px;
 }
-
+span{
+    font-size: 24px;
+    font-weight: bold;
+}
 .skill-bar .progress {
-    background-color: #ff0000;
+    background-color: rgb(233, 65, 84);
     height: 100%;
 }
 
