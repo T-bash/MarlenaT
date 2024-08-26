@@ -169,7 +169,13 @@ button:hover a {
 .duration{
     color: rgb(233, 65, 84);
 }
-
+/*.both{
+    display: inline;
+}*/
+.star{
+    width: auto;
+    height: auto;
+}
 .hobbies {
     margin-bottom: 30px;
     text-align: center;
@@ -196,17 +202,6 @@ button:hover a {
     /*height: 180px;*/
     margin-bottom: 10px;
 }
-
-footer {
-    padding: 20px;
-}
-
-.scroll-up {
-    text-decoration: none;
-    font-size: 24px;
-    color: #fff;
-}
-
 
 /*PROJECTS PAGE*/
 .projects {
