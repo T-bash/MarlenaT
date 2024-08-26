@@ -106,3 +106,7 @@ function showError(error) {
     }
 }
 
+/*FOR RESPONSIVENESS*/
+document.querySelector('.toggle-menu').addEventListener('click', () => {
+    document.querySelector('.nav-links').classList.toggle('active');
+});
