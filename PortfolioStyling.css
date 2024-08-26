@@ -96,15 +96,16 @@ button:hover a {
 
 
 /*ABOUT ME PAGE*/
-main {
+/*main {
     padding-top: 100px;
     padding-bottom: 50px;
     max-width: 800px;
     margin: 0 auto;
-}
+}*/
 
 .about-me {
     margin-bottom: 30px;
+    display: flex;
 }
 
 .profile-pic {
