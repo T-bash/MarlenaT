@@ -41,7 +41,7 @@ function showError(error) {
 
 /*FOR WEATHER*/
 // script.js
-const apiKey = '6b0ee016086aedc72d30087821bd8515';  // Replace with your OpenWeatherMap API key
+const apiKey = '6b0ee016086aedc72d30087821bd8515';  // OpenWeatherMap API key
 
 function getLocation() {
     if (navigator.geolocation) {
