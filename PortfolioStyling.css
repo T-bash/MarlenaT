@@ -4,8 +4,8 @@ body{
     font-family: Arial, sans-serif;
     color: white;
     background-color: black;
-    /*overflow-y: hidden;       REMEMBER TO UNDO THIS AFTER BEING ABLE TO MOVE UP AN DOWN IN YOUR WEBSITE
-    overflow-x: hidden;*/
+    /*overflow-y: hidden;       /*REMEMBER TO UNDO THIS AFTER BEING ABLE TO MOVE UP AN DOWN IN YOUR WEBSITE*/
+    overflow-x: hidden;
     cursor: all-scroll;
 }
 /*styling the header section oF ALL PAGES*/
@@ -68,8 +68,8 @@ body{
     color: white;
 }
 .fa-brands {
-    padding: 10px;
-    font-size: 35px;
+    padding: 20px;
+    font-size: 50px;
     color: rgb(233, 65, 84);
 }
 .hire-me{
@@ -392,7 +392,11 @@ input, textarea {
     background-color: #222;
     color: #fff;
 }
-
+::placeholder{
+    color: #555552;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
 textarea {
     height: 100px;
     resize: none;
