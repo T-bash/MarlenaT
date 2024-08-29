@@ -66,6 +66,7 @@ body{
 .meintro p {
     font-size: 24px;
     color: white;
+    font-weight: lighter;
 }
 .fa-brands {
     padding: 20px;
@@ -91,7 +92,7 @@ button:hover a {
 .pic3{
     border-radius: 50%;
     width: 637px;
-    height: 648px;
+    height: 748px;
 }
 
 
