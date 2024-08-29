@@ -24,7 +24,7 @@ body{
 }
 .navigation a {
     display: block;
-    color:rgb(233, 65, 84) ;
+    color:limegreen ;
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
@@ -57,7 +57,7 @@ body{
     margin-top: -80px;
 }
 .name{
-    color: rgb(233, 65, 84);
+    color: limegreen;
 }
 .meintro h5 {
     font-size: 32px;
@@ -71,10 +71,10 @@ body{
 .fa-brands {
     padding: 20px;
     font-size: 50px;
-    color: rgb(233, 65, 84);
+    color: limegreen;
 }
 .hire-me{
-    color: rgb(233, 65, 84);
+    color: limegreen;
     font-size: 24px;
     background-color: black;
     border-radius: 50px;
@@ -83,7 +83,7 @@ body{
 }
 .hire-me a{
     text-decoration: none;
-    color: rgb(233, 65, 84);
+    color: limegreen;
 }
 button:hover a {
     color: black;
@@ -109,7 +109,7 @@ button:hover a {
 .profile-pic {
     border-radius: 50%;
     width: 541px;
-    height: 702px;
+    height: 602px;
 }
 
 .about-content {
@@ -119,12 +119,13 @@ button:hover a {
 .about-content h2{
     font-size: 40px;
     font-weight: bolder;
-    color: rgb(233, 65, 84);
+    color: limegreen;
     text-align: center;
 }
 .about-content p {
-    font-size: 24px;
-    text-align: center;
+    font-size: 30px;
+    /*text-align: center;*/
+   /* margin-left: -0px;*/
 }
 .biographical-data {
     margin-bottom: 30px;
@@ -134,7 +135,7 @@ button:hover a {
 .biographical-data h3 {
     font-size: 40px;
     font-weight: bolder;
-    color: rgb(233, 65, 84);
+    color: limegreen;
     text-align: center;
     padding-left: 200px;
 }
@@ -145,7 +146,7 @@ button:hover a {
     padding-left: 370px;
 }
 .name2{
-    color: white;
+    color: limegreen;
 }
 .journey {
     margin-bottom: 30px;
@@ -154,7 +155,7 @@ button:hover a {
 .journey h3 {
     font-size: 40px;
     font-weight: bolder;
-    color: rgb(233, 65, 84);
+    color: limegreen;
 }
 .journey-content {
     display: flex;
@@ -163,12 +164,12 @@ button:hover a {
     font-size: 24px;
 }
 .fa-solid{
-    color: rgb(233, 65, 84);
+    color: limegreen;
     padding-right: 10px;
     font-size: 30px;
 }
 .duration{
-    color: rgb(233, 65, 84);
+    color: limegreen;
 }
 /*.both{
     display: inline;
@@ -184,7 +185,7 @@ button:hover a {
 .hobbies h3{
     font-size: 40px;
     font-weight: bolder;
-    color: rgb(233, 65, 84);
+    color: limegreen;
 }
 .hobbies-icons {
     display: flex;
@@ -212,7 +213,7 @@ footer{
 .up{
     text-decoration: none;
     font-size: 50px;
-    color: rgb(233, 65, 84);
+    color: limegreen;
 }
 
 /*PROJECTS PAGE*/
@@ -251,7 +252,7 @@ footer{
 
 .demo-link {
     text-decoration: none;
-    color:rgb(233, 65, 84);
+    color:limegreen;
     font-weight: bold;
     display: inline-block;
     margin-top: 10px;
@@ -266,7 +267,7 @@ footer{
 .up{
     text-decoration: none;
     font-size: 50px;
-    color: rgb(233, 65, 84);
+    color: limegreen;
 }
 /*SKILLS PAGE*/
 main {
@@ -296,7 +297,7 @@ main {
 
 .skill p {
     margin: 5px 0 15px;
-    color: rgb(233, 65, 84);
+    color: limegreen;
     font-size: 24px;
     font-weight: bold;
 }
@@ -321,7 +322,7 @@ span{
     font-weight: bold;
 }
 .skill-bar .progress {
-    background-color: rgb(233, 65, 84);
+    background-color: limegreen;
     height: 100%;
 }
 
@@ -331,7 +332,7 @@ footer{
 .up{
     text-decoration: none;
     font-size: 50px;
-    color: rgb(233, 65, 84);
+    color: limegreen;
 }
 
 
@@ -347,7 +348,7 @@ footer{
     color: #fff;
     font-size: 40px;
     font-weight: bolder;
-    color: rgb(233, 65, 84);
+    color: limegreen;
     padding-left: 60px;
 }
 
@@ -367,13 +368,14 @@ footer{
 .contact-form h3 {
     font-size: 40px;
     font-weight: bolder;
-    color: rgb(233, 65, 84);
+    color: limegreen;
     text-align: center;
 }
 
 .contact-form p {
     color: #ddd;
     text-align: center;
+    font-size: 24px;
 }
 
 form {
@@ -404,11 +406,11 @@ textarea {
 button {
     padding: 10px 20px;
     background-color:white;
-    color:rgb(233, 65, 84);
+    color:limegreen;
     border: solid;
     border-radius: 10px;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 20px;
     cursor: pointer;
 }
 
