@@ -122,6 +122,7 @@ button:hover a {
     font-weight: bolder;
     color: limegreen;
     text-align: center;
+    text-shadow: 3px 2px 5px blueviolet;
 }
 .about-content p {
     font-size: 30px;
@@ -139,6 +140,7 @@ button:hover a {
     color: limegreen;
     text-align: center;
     padding-left: 200px;
+    text-shadow: 3px 2px 5px blueviolet;
 }
 .biographical-data li {
     margin-bottom: 10px;
@@ -156,7 +158,8 @@ button:hover a {
 .journey h3 {
     font-size: 40px;
     font-weight: bolder;
-    color: limegreen;
+    color:limegreen;
+    text-shadow: 3px 2px 5px blueviolet;
 }
 .journey-content {
     display: flex;
@@ -164,11 +167,7 @@ button:hover a {
     text-align: left;
     font-size: 24px;
 }
-.fa-solid{
-    color: limegreen;
-    padding-right: 10px;
-    font-size: 30px;
-}
+
 .duration{
     color: limegreen;
 }
@@ -187,6 +186,7 @@ button:hover a {
     font-size: 40px;
     font-weight: bolder;
     color: limegreen;
+    text-shadow: 3px 2px 5px blueviolet;
 }
 .hobbies-icons {
     display: flex;
@@ -207,14 +207,6 @@ button:hover a {
     width: 150px;
     /*height: 180px;*/
     margin-bottom: 10px;
-}
-footer{
-    text-align: right;
-}
-.up{
-    text-decoration: none;
-    font-size: 50px;
-    color: black;
 }
 
 /*PROJECTS PAGE*/
@@ -262,9 +254,7 @@ footer{
 .demo-link:hover {
     text-decoration: underline;
 }
-footer{
-    text-align: right;
-}
+
 .up{
     text-decoration: none;
     font-size: 50px;
@@ -327,9 +317,6 @@ span{
     height: 100%;
 }
 
-footer{
-    text-align: right;
-}
 .up{
     text-decoration: none;
     font-size: 50px;
@@ -340,23 +327,6 @@ footer{
 /*CONTACT ME PAGE*/
 /* Reuse the styles from previous pages for consistency */
 
-.contact-info {
-    margin-top: -120px;
-    text-align: center;
-}
-
-.contact-info h2 {
-    font-size: 30px;
-    font-weight: bolder;
-    color: black;
-    padding-left: 60px;
-}
-
-.contact-info p {
-    color: #ddd;
-    font-size: 24px;
-    padding-left: 80px;
-}
 .find{
     margin-left: -50px;
 }
@@ -370,6 +340,7 @@ footer{
     font-weight: bolder;
     color: limegreen;
     text-align: center;
+    text-shadow: 3px 2px 5px blueviolet;
 }
 
 .contact-form p {
@@ -418,6 +389,37 @@ button:hover {
     color: black;
     background-color: white;
 }
-footer{
-    background-color: limegreen;
+#grad1{
+    height: auto;
+    text-align: right;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    background-image: linear-gradient(limegreen, white);
 }
+.contact-info h2 {
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+    /*padding-left: 60px;*/
+    padding-top: 30px;
+    text-align: center;
+    text-shadow: 3px 2px 5px whitesmoke;
+}
+.last{
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    margin-bottom: -10px;
+    padding-top: 50px;
+}
+.footcons{
+    text-align: center;
+}
+.fa-solid{
+    color: black;
+    padding-right: 20px;
+    font-size: 50px;
+}
+
+
+
