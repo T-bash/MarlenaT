@@ -6,6 +6,12 @@ body {
     margin: 0;
     /*padding: 20px;*/
 }
+div.scroller {
+   /* width: 300px;
+    height: 100px;*/
+    overflow-y: scroll;
+    scrollbar-color: pink lightblue;
+}
 .geolocation{
     padding-left: 200px;
 }
@@ -15,12 +21,9 @@ body {
     margin-left: -550px;
 }
 #map {
-    height: 354px;
+    height: 348px; 
     width: 576px;
     margin-top: 20px;
-    border: 1px solid rgb(233, 65, 84);
-    border-radius: 20px;
-
 }
 
 #weather {

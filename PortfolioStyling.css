@@ -4,10 +4,11 @@ body{
     font-family: Arial, sans-serif;
     color: white;
     background-color: black;
-    /*overflow-y: hidden;       /*REMEMBER TO UNDO THIS AFTER BEING ABLE TO MOVE UP AN DOWN IN YOUR WEBSITE*/
-    overflow-x: hidden;
+    overflow-y: scroll; 
+    /*overflow-x: hidden;*/
     cursor: all-scroll;
 }
+
 /*styling the header section oF ALL PAGES*/
 .header{
     display: flex;
