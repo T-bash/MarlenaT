@@ -213,7 +213,7 @@ footer{
 .up{
     text-decoration: none;
     font-size: 50px;
-    color: limegreen;
+    color: black;
 }
 
 /*PROJECTS PAGE*/
@@ -267,7 +267,7 @@ footer{
 .up{
     text-decoration: none;
     font-size: 50px;
-    color: limegreen;
+    color: black;
 }
 /*SKILLS PAGE*/
 main {
@@ -332,7 +332,7 @@ footer{
 .up{
     text-decoration: none;
     font-size: 50px;
-    color: limegreen;
+    color: black;
 }
 
 
@@ -345,10 +345,9 @@ footer{
 }
 
 .contact-info h2 {
-    color: #fff;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bolder;
-    color: limegreen;
+    color: black;
     padding-left: 60px;
 }
 
@@ -362,7 +361,7 @@ footer{
 }
 
 .contact-form {
-    margin-top: 30px;
+    margin-top: -80px;
 }
 
 .contact-form h3 {
@@ -417,4 +416,7 @@ button {
 button:hover {
     color: black;
     background-color: white;
+}
+footer{
+    background-color: limegreen;
 }
