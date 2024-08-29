@@ -70,7 +70,7 @@ body{
 }
 .fa-brands {
     padding: 20px;
-    font-size: 50px;
+    font-size: 40px;
     color: limegreen;
 }
 .hire-me{
@@ -78,7 +78,7 @@ body{
     font-size: 24px;
     background-color: black;
     border-radius: 50px;
-    width: 183px;
+    width: 150px;
     height: 58px;
 }
 .hire-me a{
