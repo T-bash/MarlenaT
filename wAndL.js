@@ -1,3 +1,4 @@
+
 // script.js for MAP*/
 function getLocation() {
     if (navigator.geolocation) {
@@ -8,7 +9,7 @@ function getLocation() {
 }
 /*ALSO FOR MAP*/
 function showPosition(position) {
-    /*var lat = position.coords.latitude;*/
+    var lat = position.coords.latitude;
     var lon = position.coords.longitude;
     var map = L.map('map').setView([lat, lon], 13);
 
@@ -106,7 +107,3 @@ function showError(error) {
     }
 }
 
-/*FOR RESPONSIVENESS*/
-document.querySelector('.toggle-menu').addEventListener('click', () => {
-    document.querySelector('.nav-links').classList.toggle('active');
-});
