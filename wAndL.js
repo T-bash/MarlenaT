@@ -8,7 +8,7 @@ function getLocation() {
 }
 /*ALSO FOR MAP*/
 function showPosition(position) {
-    var lat = position.coords.latitude;
+    /*var lat = position.coords.latitude;*/
     var lon = position.coords.longitude;
     var map = L.map('map').setView([lat, lon], 13);
 
