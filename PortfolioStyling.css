@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+   font-family: Arial, sans-serif;
     color: white;
     background-color: black;
     overflow-y: scroll; 
@@ -47,7 +47,7 @@ body{
     justify-content: space-between;
     align-items: center;
     text-align: left;
-    width: 1440px;
+    width: 14-0px;
 }
 .meintro{
     padding: 0 70px;
@@ -90,13 +90,17 @@ button:hover a {
     color: black;
     background-color: white;
 }
-.pic3{
-    border-radius: 50%;
+/*.pic3{
+   /* border-radius: 50%;
     /*width: 537px;*/
    /* height: 548px;*/
-   width: 537px;
+   /*width: 537px;
+}*/
+.myphoto{
+    margin-left: -80px;
+    border-radius: 50%;
+    width: 537px;
 }
-
 
 
 /*ABOUT ME PAGE*/
@@ -411,6 +415,7 @@ button:hover {
 }
 .footcons{
     text-align: center;
+    margin-bottom: -50px;
 }
 .fa-solid{
     color: black;
