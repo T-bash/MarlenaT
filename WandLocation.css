@@ -4,11 +4,8 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 0;
-    /*padding: 20px;*/
 }
 div.scroller {
-   /* width: 300px;
-    height: 100px;*/
     overflow-y: scroll;
     scrollbar-color: pink lightblue;
 }
@@ -16,9 +13,13 @@ div.scroller {
     padding-left: 200px;
 }
 .WL{
-    /*padding-left: 80px;*/
-    font-size: 32px;
+    font-size: 30px;
     margin-left: -550px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
 }
 #map {
     height: 348px; 
